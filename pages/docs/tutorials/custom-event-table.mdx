@@ -71,14 +71,12 @@ requests.post(
         'Content-type': 'application/json'
     },
     data=json.dumps({
-        {
           'event': 'sent',
           'email': email,
           'message_id': message_id,
           'task_id': task_id,
           'list_id': list_id,
           'detailed': detailed
-        }
     }))
 ```
 
